@@ -1,0 +1,54 @@
+body{
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.pass{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#password{
+    border: none;
+    padding: 10px;
+    background-color: whitesmoke;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#generate,#copy{
+    background-color: #4CAF50;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+#copy{
+    visibility: hidden;
+}
+
+#generate:hover,#copy:hover{
+    background-color: #3e8e41;
+
+}
+
+label{
+    display: flex;
+    margin-block: 10px;
+}
